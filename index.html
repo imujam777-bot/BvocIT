@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta name="description" content="BVOC IT Hub — Semester 3 study resources for GTU B.Voc IT students.">
+  <title>BVOC IT Hub | Semester 3</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/bvoc-it-logo.png" alt="B.VOC IT Students of JVIMS logo"><span>BVOC IT <b>Hub</b><small>GTU · Semester 3</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="mainNav"><a href="index.html">Home</a><a href="subjects.html">Subjects</a></nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">YOUR CLASS. YOUR RESOURCES.</p>
+        <h1>Study smarter.<br><span>Find it faster.</span></h1>
+        <p class="hero-description">A subject-wise study library for GTU B.Voc IT Semester 3. Open a subject first, then find its notes, diagrams, questions and past papers together.</p>
+        <div class="hero-actions"><a class="button button-light" href="subjects.html">Explore subjects <span>→</span></a><a class="text-link" href="questions.html">Go to revision zone ↗</a></div>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="study-card card-top"><span>01 / REVISE</span><b>Important Q&amp;A</b><small>Short + long answers</small></div><div class="study-card card-bottom"><span>02 / PRACTISE</span><b>Diagrams &amp; papers</b><small>Visual learning, less searching</small></div><div class="hero-symbol">S3<span>✦</span></div></div>
+    </section>
+    <section class="section">
+      <div class="section-heading"><div><p class="eyebrow">QUICK ACCESS</p><h2>What are you studying today?</h2></div><a class="text-link" href="subjects.html">All subjects ↗</a></div>
+      <div class="feature-grid">
+        <a class="feature-card" href="subjects.html"><span class="feature-icon blue">◇</span><h3>Diagram bank</h3><p>UML models, computer diagrams, and topic visuals.</p><span class="card-arrow">Explore →</span></a>
+        <a class="feature-card" href="subjects.html"><span class="feature-icon purple">Q&amp;A</span><h3>Important questions</h3><p>Build your revision list with short and long answers.</p><span class="card-arrow">Revise →</span></a>
+        <a class="feature-card" href="subjects.html"><span class="feature-icon orange">PDF</span><h3>Previous papers</h3><p>Keep exam papers organized by subject and year.</p><span class="card-arrow">Practise →</span></a>
+        <a class="feature-card" href="subjects.html"><span class="feature-icon green">&lt;/&gt;</span><h3>Practicals &amp; viva</h3><p>Programs, expected outputs, and viva preparation.</p><span class="card-arrow">Prepare →</span></a>
+      </div>
+    </section>
+    <section class="section subject-section">
+      <div class="section-heading"><div><p class="eyebrow">SEMESTER 3</p><h2>Your subjects</h2></div><span class="pill">4 subjects added</span></div>
+      <div id="homeSubjects" class="subject-grid"></div>
+    </section>
+    <section class="revision-banner"><div><p class="eyebrow">LAST-MINUTE REVISION</p><h2>Less scrolling. More studying.</h2><p>Open a subject to keep all its study material together in one place.</p></div><a class="button button-dark" href="subjects.html">Choose a subject →</a></section>
+  </main>
+  <footer><a class="brand footer-brand" href="index.html"><img class="brand-logo" src="assets/bvoc-it-logo.png" alt="B.VOC IT Students of JVIMS logo"><span>BVOC IT <b>Hub</b><small>Made for our class</small></span></a><p>Student study resource hub · Verify answers against your official syllabus and class notes.</p></footer>
+  <script src="js/resources.js"></script><script src="js/main.js"></script>
+</body>
+</html>
